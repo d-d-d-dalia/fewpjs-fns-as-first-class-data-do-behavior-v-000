@@ -11,7 +11,7 @@ function handleClick(e) {
 /* Write your implementation of displayMessage() */
 
 function greet(string) {
-  const hours, minutes = string.split(":")
+  const hours = string.split(":")
 }
 
 function displayMessage() {
