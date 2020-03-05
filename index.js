@@ -25,6 +25,6 @@ function greet(string) {
 
 function displayMessage(string) {
   const node = document.getElementById('greeting')
-  node.text(`${string}`)
+  node.innerHTML = `${string}`
 }
 
