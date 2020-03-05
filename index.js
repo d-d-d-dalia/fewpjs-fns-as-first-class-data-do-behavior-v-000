@@ -23,7 +23,7 @@ function greet(string) {
   }
 }
 
-function displayMessage(arg) {
+function displayMessage(string) {
   
 }
 
