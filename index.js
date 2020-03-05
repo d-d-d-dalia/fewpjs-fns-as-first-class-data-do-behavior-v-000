@@ -16,7 +16,6 @@ function greet(string) {
     return "Good Morning"
   }
   else if (parseInt(hours[0] >= 12) && parseInt(hours[0] <= 16)) {
-    console.log(hours[0])
     return "Good Afternoon"
   }
   else if (parseInt(hours[0] >= 17)) {
