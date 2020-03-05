@@ -19,7 +19,7 @@ function greet(string) {
     return "Good Afternoon."
   }
   else {
-    return "Good Evening."
+    return "Good Evening"
   }
 }
 
