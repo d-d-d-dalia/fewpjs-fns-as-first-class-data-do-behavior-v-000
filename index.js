@@ -14,10 +14,9 @@ function greet(string) {
   const hours = string.split(":")
   if (parseInt(hours[0]) < 12) {
     return "Good Morning"
+  }
   else if (parseInt(hours[0] >= 12) && parseInt(hours[0] <= 5)) {
     return "Good Afternoon."
-  }
-  }
   }
 }
 
